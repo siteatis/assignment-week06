@@ -1,1 +1,74 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: slategray;
+}
 
+/* TODO: Note, please don't suggest anything re the CSS, it will not help as I don't */
+/* TODO: know enough CSS to make a serious attempt at styling; the incorrect styles in */
+/* TODO: this code file are not mistakes, they are just wild guesses that didn't work. */
+
+h1 {
+  font-family: verdana, tahoma, sans-serif;
+  text-align: center;
+}
+
+#frogSearch {
+  margin: 20;
+}
+
+#frogSearchBox {
+  padding: 10;
+  border-radius: 4px;
+}
+
+.bigpic {
+  z-index: -1;
+  width: 80vw;
+  object-fit: contain;
+}
+
+.thumb {
+  height: 4vh;
+  width: auto;
+  cursor: pointer;
+}
+
+.gallery {
+  margin: 20;
+  padding: 20;
+  position: absolute;
+  display: flex;
+  overflow: scroll;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.bigimage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.previous-btn {
+  left: 4vw;
+}
+
+.next-btn {
+  right: 4vw;
+}
+
+.slide-btn {
+  position: absolute;
+  border: 1px solid rgba(127, 255, 127, 0.5);
+  border-radius: 40%;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(127, 255, 127, 0.5);
+  padding: 6px 10px;
+  z-index: 1;
+  top: 50vh;
+  cursor: pointer;
+}
