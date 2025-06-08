@@ -1,5 +1,7 @@
 # Reflections
 
+I've abandoned this project, like the last four, after again wasting an entire day that would have been better spent on catching up. The React logic was straightforward - it took about 45 minutes in my self-reflection hour on Friday to build a working version with pretty similar functionality to what I'm pushing now. But then the rest has been a nightmare again as I have to look up and research every single tiny thing on the subjects I missed in earlier weeks, wasting hours to make a few inches of progress. I've tidied it up so that it runs, so there's something to mark.
+
 ## Required
 
 🎯 What requirements did you achieve?
